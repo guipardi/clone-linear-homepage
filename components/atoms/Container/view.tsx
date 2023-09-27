@@ -7,7 +7,7 @@ export const Container: FC<ContainerProps> = ({
   ...props
 }) => {
   return (
-    <div className={`max-w-[120rem] mx-auto ${className}`} {...props}>
+    <div className={`max-w-[120rem] mx-auto px-8 ${className}`} {...props}>
       {children}
     </div>
   )

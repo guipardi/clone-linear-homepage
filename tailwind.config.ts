@@ -18,10 +18,12 @@ const config: Config = {
       '5xl': ['5rem', '5rem'],
     },
     colors: {
+      transparent: 'transparent',
       background: '#000212',
       white: '#fff',
       'white-a08': 'rgba(255, 255, 255, 0.08)',
       grey: '#858699',
+      'grey-dark': '#222326',
     },
     spacing: {
       0: '0',
@@ -37,6 +39,7 @@ const config: Config = {
       10: '2.5rem',
       11: '2.75rem',
       12: '3rem',
+      'navigation-height': 'var(--navigation-height)',
     },
     backgroundImage: {
       'primary-gradient':

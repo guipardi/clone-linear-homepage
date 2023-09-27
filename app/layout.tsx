@@ -18,12 +18,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="viewport"
+          content="width=device-width, height=device-height, initial-scale=1"
+        />
+      </head>
       <body className={inter.className}>
         <div>
           <Header />
-          <main className="text-white pt-[var(--navigation-height)]">
-            {children}
-          </main>
+          <main className="text-white pt-navigation-height">{children}</main>
           <footer className="text-white">
             <Container>footer</Container>
           </footer>
